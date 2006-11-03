@@ -1,0 +1,30 @@
+JSON-Shell version 1.0
+
+JSON::Shell provides an interactive shell for understanding and debugging JSON
+and JSON-RPC web API interfaces.
+
+This is the first release.
+
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+    perl Build.PL
+    ./Build
+    ./Build test
+    ./Build install
+
+
+DEPENDENCIES
+
+* JSON
+* Shell::Base
+
+
+COPYRIGHT AND LICENCE
+
+Copyright 2006 Six Apart, Ltd. <cpan@sixapart.com>
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.

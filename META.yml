@@ -1,0 +1,17 @@
+---
+name: JSON-Shell
+version: 1.0
+author:
+  - 'Mark Paschal <mark@sixapart.com>'
+abstract: an interactive shell for performing JSON and JSON-RPC requests
+license: perl
+requires:
+  JSON: 0
+  Shell::Base: 0
+  Test::More: 0
+  version: 0
+provides:
+  JSON::Shell:
+    file: lib/JSON/Shell.pm
+    version: 1.0
+generated_by: Module::Build version 0.2611
